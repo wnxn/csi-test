@@ -1906,7 +1906,7 @@ var _ = DescribeSanity("DeleteSnapshot [Controller Server]", func(sc *SanityCont
 		Expect(err).NotTo(HaveOccurred())
 	})
 
-	It("should return appropriate values (no optional values added)", func() {
+	FIt("should return appropriate values (no optional values added)", func() {
 
 		By("creating a volume")
 		volReq := MakeCreateVolumeReq(sc, "DeleteSnapshot-volume-1")
@@ -1946,7 +1946,7 @@ var _ = DescribeSanity("CreateSnapshot [Controller Server]", func(sc *SanityCont
 		}
 	})
 
-	It("should fail when no name is provided", func() {
+	FIt("should fail when no name is provided", func() {
 
 		req := &csi.CreateSnapshotRequest{
 			SourceVolumeId: "testId",
