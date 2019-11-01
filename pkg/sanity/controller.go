@@ -1963,7 +1963,7 @@ var _ = DescribeSanity("CreateSnapshot [Controller Server]", func(sc *SanityCont
 		Expect(serverError.Code()).To(Equal(codes.InvalidArgument))
 	})
 
-	It("should fail when no source volume id is provided", func() {
+	FIt("should fail when no source volume id is provided", func() {
 
 		req := &csi.CreateSnapshotRequest{
 			Name: "name",
