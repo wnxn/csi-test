@@ -2,7 +2,7 @@
 github.com/container-storage-interface/spec/lib/go/csi
 # github.com/golang/mock v1.2.0
 github.com/golang/mock/gomock
-# github.com/golang/protobuf v1.3.1
+# github.com/golang/protobuf v1.3.2
 github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/wrappers
 github.com/golang/protobuf/proto
@@ -91,7 +91,7 @@ golang.org/x/text/runes
 golang.org/x/text/internal/tag
 # google.golang.org/genproto v0.0.0-20190307195333-5fe7a883aa19
 google.golang.org/genproto/googleapis/rpc/status
-# google.golang.org/grpc v1.19.0
+# google.golang.org/grpc v1.24.0
 google.golang.org/grpc
 google.golang.org/grpc/codes
 google.golang.org/grpc/reflection
@@ -106,6 +106,7 @@ google.golang.org/grpc/encoding/proto
 google.golang.org/grpc/grpclog
 google.golang.org/grpc/internal
 google.golang.org/grpc/internal/backoff
+google.golang.org/grpc/internal/balancerload
 google.golang.org/grpc/internal/binarylog
 google.golang.org/grpc/internal/channelz
 google.golang.org/grpc/internal/envconfig
@@ -118,6 +119,7 @@ google.golang.org/grpc/peer
 google.golang.org/grpc/resolver
 google.golang.org/grpc/resolver/dns
 google.golang.org/grpc/resolver/passthrough
+google.golang.org/grpc/serviceconfig
 google.golang.org/grpc/stats
 google.golang.org/grpc/tap
 google.golang.org/grpc/reflection/grpc_reflection_v1alpha
